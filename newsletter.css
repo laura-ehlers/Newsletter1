@@ -1,0 +1,209 @@
+body {
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.serifHeadline {
+    font-family: 'Kaisei Decol', serif;
+}
+
+.handwrittenHeadline {
+    font-family: 'Great Vibes', cursive;
+}
+
+#text {
+    text-align: justify;
+}
+
+#correctDisplay {
+    font-size: 15px;
+}
+
+header {
+    background-color: #7796A6;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    justify-items: center;
+    font-size: 35px;
+}
+
+#logo {
+    width: 100%;
+}
+
+#logo img {
+    width: 50%;
+
+}
+
+#banner {
+    width: 95%;
+    display: flex;
+    position: absolute;
+    margin: auto;
+    justify-content: flex-end;
+}
+
+#banner img {
+    width: 20%;
+}
+
+#mainImg {
+    background-image: url("img/mainImg.jpg");
+    background-position: center top;
+    background-size: cover;
+    height: 1000px;
+    background-repeat: no-repeat;
+    position: relative;
+    font-size: 30px;
+    filter: brightness(120%);
+}
+
+#mainImg h1 {
+    margin: 0;
+    padding-top: 37px;
+}
+
+#mainImg h2 {
+    margin: 0;
+    padding-top: 10px;
+}
+
+button {
+    position: absolute;
+    bottom: 10%;
+    transform: translateX(-50%);
+    border: none;
+    color: black;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background: linear-gradient(to top, #d1913c, #ffd194);
+    border-radius: 10px;
+}
+
+article {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+article h1 {
+    padding: 30px;
+    font-weight: bold;
+}
+
+#questions {
+    background-image: url("img/pinkBackground.jpg");
+    background-position: center top;
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 40px;
+}
+
+#questions h1 {
+    font-size: 50px;
+    margin: 50px 0 10px 0;
+}
+
+#questions h2 {
+    font-size: 50px;
+    margin: 0;
+}
+
+#questions h3 {
+    font-size: 25px;
+}
+
+#questions h4 {
+    font-weight: normal;
+    font-size: 25px;
+    margin: 20px 25%;
+}
+
+#sittingCat {
+    padding-top: 100px;
+}
+
+#sittingCat h1 {
+    padding: 70px 0;
+}
+
+#promise {
+    border-bottom-style: solid;
+    border-top-style: solid;
+}
+
+#promise h1 {
+    font-weight: normal;
+    padding: 30px 50px;
+}
+
+#socialMedia {
+    display: inline-flex;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#socialMedia i {
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+#socialMedia .fa-facebook-f {
+    padding: 15px 25px;
+}
+
+#socialMedia .fa-instagram {
+    padding: 15px 20px;
+}
+
+#socialMedia .fa-youtube {
+    padding: 15px 15px;
+}
+
+#contactInfo {
+    background-color: #FFA384;
+    padding: 80px 50px;
+}
+
+#companyInfo {
+    padding: 80px 50px;
+}
+
+#cancelNewsletter {
+    font-size: 15px;
+}
+
+@media screen and (min-width: 769px) {
+    #correctDisplay {
+        font-size: 20px;
+    }
+
+    article h1 {
+        font-size: 50px;
+    }
+
+    #text {
+        font-size: 25px;
+    }
+
+    #sittingCat h1 {
+        font-size: 55px;
+    }
+
+    #contactInfo, #companyInfo {
+        font-size: 25px;
+    }
+
+    #cancelNewsletter {
+        font-size: 20px;
+    }
+}
+
+
